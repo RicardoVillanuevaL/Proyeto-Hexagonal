@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "application\application.csproj", "{1046171C-D4F8-4506-8765-45DA1A122034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "services\services.csproj", "{5CFD6DF6-42F0-4CEB-8EF2-24F0B0F92EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{9B4E62F2-5B8E-4B7F-A769-4C0FFC513F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1046171C-D4F8-4506-8765-45DA1A122034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1046171C-D4F8-4506-8765-45DA1A122034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1046171C-D4F8-4506-8765-45DA1A122034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1046171C-D4F8-4506-8765-45DA1A122034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFD6DF6-42F0-4CEB-8EF2-24F0B0F92EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFD6DF6-42F0-4CEB-8EF2-24F0B0F92EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFD6DF6-42F0-4CEB-8EF2-24F0B0F92EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFD6DF6-42F0-4CEB-8EF2-24F0B0F92EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4E62F2-5B8E-4B7F-A769-4C0FFC513F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4E62F2-5B8E-4B7F-A769-4C0FFC513F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4E62F2-5B8E-4B7F-A769-4C0FFC513F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4E62F2-5B8E-4B7F-A769-4C0FFC513F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {687572BD-377E-4870-86BF-72420CE09A34}
+	EndGlobalSection
+EndGlobal
