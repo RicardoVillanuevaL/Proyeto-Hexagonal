@@ -7,22 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using services;
 
 namespace interfaces
 {
-    public partial class Form1 : Form
+    public partial class Productos : Form
     {
-        public Form1()
+        public Productos()
         {
             InitializeComponent();
         }
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        private void btnInsertarProducto_Click(object sender, EventArgs e)
         {
-           
-            Productos pform = new Productos();
-            pform.Show();
+            Insertar_Producto ip = new Insertar_Producto();
+            ip.Show();
             this.Hide();
+
+        }
+
+        private void Productos_Load(object sender, EventArgs e)
+        {
+            
 
         }
     }

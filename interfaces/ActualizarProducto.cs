@@ -10,20 +10,18 @@ using System.Windows.Forms;
 
 namespace interfaces
 {
-    public partial class Form1 : Form
+    public partial class ActualizarProducto : Form
     {
-        public Form1()
+        public ActualizarProducto()
         {
             InitializeComponent();
         }
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-           
             Productos pform = new Productos();
             pform.Show();
             this.Hide();
-
         }
     }
 }
