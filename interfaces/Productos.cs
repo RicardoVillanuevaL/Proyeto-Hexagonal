@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using services;
+
 
 namespace interfaces
 {
@@ -28,7 +28,6 @@ namespace interfaces
 
         private void Productos_Load(object sender, EventArgs e)
         {
-            
 
         }
     }
