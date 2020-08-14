@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using common;
 
 namespace interfaces
 {
@@ -22,6 +23,15 @@ namespace interfaces
             Productos pform = new Productos();
             pform.Show();
             this.Hide();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Producto p = new Producto();
+            p.nombre = txtNombre.Text;
+            p.precio = double.Parse(txtPrecio.Text);
+            p.stock = int.Parse(txtStock.Text);
+            p.descripcion = txtDescripcion.Text;
         }
     }
 }
