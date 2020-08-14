@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using common;
+using Newtonsoft.Json;
+
 
 namespace services
 {
-    class UserServices
+    public class UserServices
     {
+
     }
 }
